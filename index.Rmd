@@ -5,18 +5,19 @@ output:
         theme: flatly
         css: reprohack.css
 params: 
-  title: "CarpentryConnect Manchester 2019"
-  room_location: "Room 2.15, Kilburn Building, University of Manchester"
-  address: "Oxford Rd, Manchester M13 9PL"
-  latitude: 53.4670673
-  longitude: -2.2341808
+  title: "Awesome conference / organiser"
+  room_location: "Ada Lovelace Seminar Room, Dept. of Computer Science"
+  address: "The University of Sheffield, 211 Portobello, Sheffield S1 4DP"
   date: "27th June 2019"
   time: "9.30am-15:30pm"
-  bannerurl: "https://www.software.ac.uk/sites/default/files/CCmcrlogo.png"
-  registration_url: https://www.eventbrite.co.uk/e/carpentryconnect-manchester-2019-tickets-48832239543
-  hackpad_url: https://hackmd.io/@U2KSpBasRLqM0fN-YALVrw/r1LTia9RV/edit
-  submission_url: https://forms.gle/m7CEp59ekDkmiyP69
-  submission_form_title: ReproHack Paper Submission Form - CarpentryConnect Mcr19
+  bannerurl: "https://github.com/reprohack/reprohack-hq/raw/master/assets/reprohack-banner.png"
+  latitude: 53.38119
+  longitude: -1.48036
+  registration_url: null
+  hackpad_url: https://hackmd.io/link-to-copy-of-hackpad/edit
+  submission_url: https://link-to-submissionform
+  reprohack_repo_url: https://github.com/your_account/reprohack-location-ISOdate
+  submission_form_title: ReproHack Paper Submission Form - your event
 runtime: shiny
 ---
 
@@ -41,7 +42,7 @@ if(!is.null(params$registration_url)){
 
 [![Gitter](https://badges.gitter.im/reprohack/community.svg)](https://gitter.im/reprohack/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-##### [workshop repository](https://github.com/reprohack/reprohack-2019-06-27): containing details for participants
+##### [workshop repository](`r params$reprohack_repo_url`): containing details for participants
 
 ***
 
