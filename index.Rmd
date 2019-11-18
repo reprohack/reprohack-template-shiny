@@ -127,8 +127,9 @@ library("shiny")
 
 <br>
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE, eval=require('googlesheets')}
-library(googlesheets)
+```{r, echo=FALSE, message=FALSE, warning=FALSE, eval=require('googlesheets4')}
+library(googlesheets4)
+options(gargle_oauth_cache = ".secrets")
 ```
 
 ```{r, echo=FALSE}
@@ -153,8 +154,8 @@ print_contact_links <- function(responses, i){
 
 
 ```{r, message=FALSE, results='asis', warning=FALSE,  echo=FALSE}
-responses_gs <- gs_title(paste(params$submission_form_title, "(Responses)"))
-responses <- gs_read(responses_gs)
+responses_gs <- sheets_find(paste(params$submission_form_title))
+responses <- sheets_read(responses_gs)
 
 if(nrow(responses) > 0){
 
