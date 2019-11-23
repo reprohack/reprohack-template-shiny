@@ -10,7 +10,7 @@ params:
   address: "The University of Sheffield, 211 Portobello, Sheffield S1 4DP"
   date: "27th June 2019"
   time: "9.30am-15:30pm"
-  bannerurl: "https://github.com/reprohack/reprohack-hq/raw/master/assets/reprohack-banner.png"
+  bannerurl: "reprohack-banner.png"
   latitude: 53.38119
   longitude: -1.48036
   registration_url: null
