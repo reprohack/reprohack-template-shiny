@@ -129,7 +129,8 @@ library("shiny")
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, eval=require('googlesheets4')}
 library(googlesheets4)
-options(gargle_oauth_cache = ".secrets")
+options(gargle_oauth_cache = ".secrets",
+        gargle_oauth_email = TRUE)
 ```
 
 ```{r, echo=FALSE}
