@@ -64,19 +64,21 @@ teams and projects through
 in this repo. We’ll track of discussions and collaborative notes on the
 event [**hackpad**](https://hackmd.io/link-to-copy-of-hackpad/edit)
 
-As all Carpentries events, we strive to make this event open and
-inclusive to all. As such the event is governed by the [Carpentries Code
-of
-Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html)
+As all ReproHack events, we strive to make this event open and inclusive
+to all. As such the event is governed by the [ReproHack Code of
+Conduct](https://github.com/reprohack/reprohack-hq/blob/master/CODE_OF_CONDUCT.md)
 and you should read it before participating. By participating, you are
 expected to uphold this code.
 
 ### **Authors**
 
 We encourage authors that are keen, to be available for participants to
-reach out to for guidance or even just to say hello\! We’ve set up a
-[**gitter channel**](https://gitter.im/reprohack/community) as a public
-lobby where you can also reach the organisers prior to the hack. You can
+reach out to for guidance or even just to say hello\! You can do so by
+joining the **`review-chat`** channel in our
+[**slack**](https://reprohack-autoinvite.herokuapp.com/) group. We’ve
+also set up an **`authors`** channel in our
+[**slack**](https://reprohack-autoinvite.herokuapp.com/) group as a
+place where you can also reach the organisers prior to the hack. You can
 also start discussions or add comments through our collaborative
 [**hackpad**](https://hackmd.io/link-to-copy-of-hackpad/edit).
 
