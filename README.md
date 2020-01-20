@@ -90,44 +90,53 @@ also start discussions or add comments through our collaborative
 
 We’ll start with a brief review of the [**papers
 proposed**](https://youraccount.shinyapps.io/reprohack-awesome-conf) and
-then form into teams.
+then form into teams. Feel free to work on your own if you prefer but we
+highly recommend you discuss your experiences with fellow participants
+as you work.
 
-#### **2. Select and register your project**
+#### **2. Select and register a paper**
 
-  - In your teams **decide which paper/hack topic** you wish to work on.
-  - To register your team and paper / topic [**open a new
-    issue**](https://github.com/your_account/reprohack-location-ISOdate/issues/new/choose)
-    in this repository using the issue templates provided.
-  - **Complete details** and create.
-  - Please also add each individual participants details in the relevant
-    section of the
+  - Add your details in the **participants** section of the
     [**hackpad**](https://hackmd.io/link-to-copy-of-hackpad/edit) so we
     have a complete list of participants.
 
-#### **3. Work on your project\!**
+  - In your teams **decide which paper** you wish to work on.
+
+  - **Register your team and paper** by logging the title of the
+    selected paper and the name(s) of the reviewer(s) in the
+    [**hackpad**](https://hackmd.io/link-to-copy-of-hackpad/edit). You
+    can use the following template:
+    
+        ### **Paper:** <Title of the paper reproduced>
+        **Reviewers:** Reviewer 1, Reviewer 2 etc.
+
+#### **3. Work on your paper\!**
 
 Follow any instructions/documentation associated with the papers and try
 and reproduce the work. As you work through your paper, keep in mind the
-main points on which feedback to the authors will provided,
+main points on which feedback to the authors will provided, **Access**,
 **Reproducibility**, **Documentation** and **Reusability**. It might
 help to have a look at the [feedback form](https://link-to-feedbackform)
 before you begin and keep notes during. Feel free to use the event
-hackpad for that.
+hackpad to record general findings you wish to share with the group.
 
 We’ll **come together during the day** to discuss progress and
 troubleshoot any sticking points.
 
-Should you finish reproducing your paper quickly, you might want to
-consider attempting to **replicate** the results, for example, if the
-code is in R consider translating the analysis to python and examining
-whether you are getting the same results. Such a contribution would be
-appropriate for publication in the **ReScience C** journal\! Have a look
-at the journals [website](http://rescience.github.io/write/) for further
-details.
+Should you finish reproducing your paper quickly, feel free to explore
+the work more deeply. For example, you could try and run additional
+analyses, create new plots or even combine materials with additonal
+
+You might want to consider attempting to **replicate** the results, for
+example, if the code is in R consider translating the analysis to python
+and examining whether you are getting the same results. Such a
+contribution would be appropriate for publication in the **ReScience C**
+journal\! Have a look at the journals
+[website](http://rescience.github.io/write/) for further details.
 
 Should you produce any additional materials relating to your
 reproduction during the session, we ask that you **share it publicly**
-and **update your team’s issue with any relevant URLs**.
+and **add any links to such materials to the hackpad**.
 
 #### **4. Leave feedback for the authors**
 
