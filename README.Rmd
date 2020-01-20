@@ -11,7 +11,7 @@ params:
   longitude: -1.48036
   registration_url: null
   hackpad_url: https://hackmd.io/link-to-copy-of-hackpad/edit
-  intro_slides_url: 
+  intro_slides_url: https://hackmd.io/link-to-copy-of-intro-slides/view
   submission_url: https://link-to-submissionform
   feedback_url: https://link-to-feedbackform
   paper_shinyapp_url: https://youraccount.shinyapps.io/reprohack-awesome-conf
@@ -122,7 +122,7 @@ Follow any instructions/documentation associated with the papers and try and rep
 
 We'll **come together during the day** to discuss progress and troubleshoot any sticking points. 
 
-Should you finish reproducing your paper quickly, feel free to explore the work more deeply. For example, you could try and run additional analyses, create new plots or even combine materials with additonal
+Should you finish reproducing your paper quickly, feel free to explore the work more deeply. For example, you could try and run additional analyses, create new plots or even combine materials with your own or other open materials available on the web!
 
 You might want to consider attempting to **replicate** the results, for example, if the code is in R consider translating the analysis to python and examining whether you are getting the same results. Such a contribution would be appropriate for publication in the **ReScience C** journal! Have a look at the journals [website](http://rescience.github.io/write/) for further details. 
 

@@ -84,7 +84,7 @@ also start discussions or add comments through our collaborative
 
 ### **Participants**
 
-#### **Introduction & Welcome** [slides]()
+#### **Introduction & Welcome** [slides](https://hackmd.io/link-to-copy-of-intro-slides/view)
 
 #### **1. Project review and team formation**
 
@@ -125,7 +125,8 @@ troubleshoot any sticking points.
 
 Should you finish reproducing your paper quickly, feel free to explore
 the work more deeply. For example, you could try and run additional
-analyses, create new plots or even combine materials with additonal
+analyses, create new plots or even combine materials with your own or
+other open materials available on the web\!
 
 You might want to consider attempting to **replicate** the results, for
 example, if the code is in R consider translating the analysis to python
