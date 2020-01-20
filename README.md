@@ -15,7 +15,7 @@
 
 ##### :earth\_africa: [**The University of Sheffield, 211 Portobello, Sheffield S1 4DP**](https://www.openstreetmap.org/?mlat=53.38119&mlon=-1.48036#map=19/53.38119/-1.48036)
 
-[![Gitter](https://badges.gitter.im/reprohack/community.svg)](https://gitter.im/reprohack/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Slack](https://img.shields.io/badge/slack-join%20us-brightgreen)](https://reprohack-autoinvite.herokuapp.com/)
 
 -----
 

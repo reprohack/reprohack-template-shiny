@@ -47,7 +47,7 @@ openstreetmaps_location_url <- paste0("https://www.openstreetmap.org/?mlat=",
 ##### :round_pushpin: **`r params$room_location`**
 ##### :earth_africa: [**`r params$address`**](`r openstreetmaps_location_url`)
   
-[![Gitter](https://badges.gitter.im/reprohack/community.svg)](https://gitter.im/reprohack/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Slack](https://img.shields.io/badge/slack-join%20us-brightgreen)](https://reprohack-autoinvite.herokuapp.com/)
 
 ***
 
