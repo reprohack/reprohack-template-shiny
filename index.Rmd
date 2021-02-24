@@ -232,16 +232,6 @@ if(checkmate::test_numeric(c(params$latitude, params$longitude))){
 
 ***
 
-### ReproHack History
-
-
-ReproHacks were inspired by **Owen Petchey's** [**Reproducible Research in Ecology, Evolution, Behaviour, and Environmental Studies course**](https://github.com/opetchey/RREEBES), where students attempt to  reproduce the analyses and figures of a paper from the raw data. We wanted to attempt to do the same but, while they take a few months over a number of sessions, for our first event we only had one day. So to condense that activity into one day we set the challenge to be: **reproduce results from published data AND code**.
-
-We've run **two ReproHacks so far** as part of satellite OpenCon events (Berlin 2016, [London 2017](https://rse.shef.ac.uk/blog/opencon-london/)) with **a [series of them planned for 2019-2020](https://rse.shef.ac.uk/blog/ssi-fellowships-2019/) using funding provided through the [Software Sustainability Institute Fellowship programme](https://www.software.ac.uk/blog/2019-04-11-announcing-2019-software-sustainability-institute-fellows)**. 
-
-#### If you would like to host a ReproHack at your institution please get in touch!
-
-***
 
 <div class="pull-left">
 
