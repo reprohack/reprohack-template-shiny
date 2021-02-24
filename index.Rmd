@@ -47,22 +47,26 @@ if(!is.null(params$registration_url)){
 ```{r out.width='100%', fig.height=6, eval=require('leaflet'), echo=FALSE, message=FALSE, warning=FALSE}
 library(leaflet)
 
-# create map data data.frame
-map_data <- data.frame(latitude, longitude) 
-
-# specify icon type for map
-icons <- awesomeIcons(
-  icon = 'ios-close',
-  iconColor = 'black',
-  library = 'ion',
-  markerColor = params$marker_color
-)
-
-# plot
-map_data %>%
-  leaflet() %>%
-  addProviderTiles("CartoDB.Positron") %>%
-  addAwesomeMarkers(icon = icons)
+# Check that latitude & longitude exist and are both numeric
+if(checkmate::test_numeric(c(params$latitude, params$longitude))){
+  
+  # create map data data.frame
+  map_data <- data.frame(params$latitude, params$longitude) 
+  
+  # specify icon type for map
+  icons <- awesomeIcons(
+    icon = 'ios-close',
+    iconColor = 'black',
+    library = 'ion',
+    markerColor = params$marker_color
+  )
+  
+  # plot
+  map_data %>%
+    leaflet() %>%
+    addProviderTiles("CartoDB.Positron") %>%
+    addAwesomeMarkers(icon = icons)
+}
 ```
 
 
